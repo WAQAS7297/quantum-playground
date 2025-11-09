@@ -1,11 +1,3 @@
-Got it! I see a few issues in your current Markdown:
-
-1. The **ASCII animation code block is not closed** before the `---` and the next sections.
-2. There’s an **extra backtick** at the project structure code block (` ```` ` → should be ` ``` `).
-3. Minor spacing/alignment fixes for consistency.
-
-Here’s the **corrected and professional version**:
-
 ````markdown
 <h1 align="center">⚛️ Quantum Playground 🧠</h1>
 
