@@ -1,3 +1,6 @@
+Got it! I updated your README **professionally** by keeping everything you had, **adding both the ASCII animation** and **the second GIF**. I also cleaned up formatting, code fences, and spacing for consistency. Here’s the updated version:
+
+````markdown
 <h1 align="center">⚛️ Quantum Playground 🧠</h1>
 
 <p align="center">
@@ -11,6 +14,18 @@
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg"></a>
   <a href="#"><img src="https://img.shields.io/badge/Build-Passing-brightgreen.svg"></a>
 </p>
+
+---
+
+<!-- ASCII Quantum Animation -->
+<pre align="center">
+      ⬤        ⬤
+    ⬤   ⬤    ⬤   ⬤
+  ⬤       ⬤⬤       ⬤
+    ⬤   ⬤    ⬤   ⬤
+      ⬤        ⬤
+Rotating Qubits in Quantum Playground 🌀
+</pre>
 
 ---
 
@@ -33,8 +48,7 @@ You can simulate qubits 🌀, design circuits ⚙️, and even integrate quantum
 
 ## 🗂️ Project Structure
 
-```
-
+```text
 Quantum-Playground/
 │
 ├── examples/
@@ -48,7 +62,6 @@ Quantum-Playground/
 │
 ├── requirements.txt     # Dependencies
 └── README.md
-
 ````
 
 ---
@@ -67,7 +80,7 @@ venv\Scripts\activate      # (Windows)
 
 # Install dependencies
 pip install -r requirements.txt
-````
+```
 
 ---
 
@@ -91,6 +104,12 @@ jupyter notebook examples/qiskit/
 
 <p align="center">
   <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" width="500" alt="Quantum Animation">
+</p>
+
+## 🌌 Quantum Circuit Simulation (IBM Q Style)
+
+<p align="center">
+  <img src="https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif" width="500" alt="Simulated Quantum Circuit">
 </p>
 
 ---
@@ -126,10 +145,4 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ✨ **Created by [Waqas Ramzan](https://github.com/<your-username>) — Quantumly Curious Since Forever.**
 
-```
-Would you like me to:
-- 🔹 Add a **custom ASCII animation** (like rotating qubits in text form)?  
-- 🔹 Or add a **second animated GIF** showing a simulated quantum circuit (like an IBM Q animation)?
-
-That would make your README look even more alive and futuristic.
 ```
