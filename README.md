@@ -1,3 +1,12 @@
+Got it! I see a few issues in your current Markdown:
+
+1. The **ASCII animation code block is not closed** before the `---` and the next sections.
+2. There’s an **extra backtick** at the project structure code block (` ```` ` → should be ` ``` `).
+3. Minor spacing/alignment fixes for consistency.
+
+Here’s the **corrected and professional version**:
+
+````markdown
 <h1 align="center">⚛️ Quantum Playground 🧠</h1>
 
 <p align="center">
@@ -11,21 +20,24 @@
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg"></a>
   <a href="#"><img src="https://img.shields.io/badge/Build-Passing-brightgreen.svg"></a>
 </p>
+
 ---
 
 <!-- ASCII Quantum Animation -->
 ```text
-      ⬤         ⬤
+      ⬤        ⬤
     ⬤   ⬤    ⬤   ⬤
   ⬤       ⬤⬤       ⬤
     ⬤   ⬤    ⬤   ⬤
       ⬤        ⬤
 Rotating Qubits in Quantum Playground 🌀
+````
 
 ---
 
 ## 🧩 About the Project
-**Quantum Playground** is a modular learning and experimentation hub for **quantum computing**.  
+
+**Quantum Playground** is a modular learning and experimentation hub for **quantum computing**.
 It brings together **Qiskit**, **PennyLane**, and **custom-built tools** for exploring quantum gates, circuits, and algorithms — all in one place.
 
 You can simulate qubits 🌀, design circuits ⚙️, and even integrate quantum + classical machine learning.
@@ -33,11 +45,12 @@ You can simulate qubits 🌀, design circuits ⚙️, and even integrate quantum
 ---
 
 ## 🚀 Features
-- 🧠 Hands-on Qiskit & PennyLane examples  
-- 🧮 Ready-to-run Jupyter notebooks  
-- 🧰 Modular `src/qc_tools` utilities for custom experiments  
-- 🧾 `tests/` for verifying circuit outputs  
-- 💡 Ideal for students, researchers, and creators exploring quantum AI  
+
+* 🧠 Hands-on Qiskit & PennyLane examples
+* 🧮 Ready-to-run Jupyter notebooks
+* 🧰 Modular `src/qc_tools` utilities for custom experiments
+* 🧾 `tests/` for verifying circuit outputs
+* 💡 Ideal for students, researchers, and creators exploring quantum AI
 
 ---
 
@@ -57,7 +70,7 @@ Quantum-Playground/
 │
 ├── requirements.txt     # Dependencies
 └── README.md
-````
+```
 
 ---
 
