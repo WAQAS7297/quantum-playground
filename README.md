@@ -102,7 +102,7 @@ jupyter notebook examples/qiskit/
 ## 🌌 Sneak Peek Animation
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/WAQAS7297/quantum-playground/main/assets/bloch_sphere.png" width="500" alt="High-Res Bloch Sphere">
+  <img src="https://raw.githubusercontent.com/WAQAS7297/quantum-playground/main/assets/bloch_sphere.gif" width="500" alt="High-Res Bloch Sphere">
 </p>
 
 
