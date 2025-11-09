@@ -1,6 +1,3 @@
-Got it! I updated your README **professionally** by keeping everything you had, **adding both the ASCII animation** and **the second GIF**. I also cleaned up formatting, code fences, and spacing for consistency. Here’s the updated version:
-
-````markdown
 <h1 align="center">⚛️ Quantum Playground 🧠</h1>
 
 <p align="center">
