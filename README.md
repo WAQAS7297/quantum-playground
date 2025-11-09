@@ -109,7 +109,7 @@ jupyter notebook examples/qiskit/
 ## 🌌 Quantum Circuit Simulation (IBM Q Style)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/WAQAS7297/quantum-playground/main/assets/circuit_simulation.py" width="500" alt="Simulated Quantum Circuit">
+  <img src="https://raw.githubusercontent.com/WAQAS7297/quantum-playground/main/assets/quantum_circuit_simulation.png" width="500" alt="Simulated Quantum Circuit">
 </p>
 
 
