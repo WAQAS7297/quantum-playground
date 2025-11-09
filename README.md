@@ -102,13 +102,13 @@ jupyter notebook examples/qiskit/
 ## 🌌 Sneak Peek Animation
 
 <p align="center">
-  <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" width="500" alt="Quantum Animation">
+![Quantum Animation](https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif)
 </p>
 
 ## 🌌 Quantum Circuit Simulation (IBM Q Style)
 
 <p align="center">
-  <img src="https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif" width="500" alt="Simulated Quantum Circuit">
+![Simulated Quantum Circuit](https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif)
 </p>
 
 ---
