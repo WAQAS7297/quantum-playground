@@ -12,19 +12,15 @@
   <a href="#"><img src="https://img.shields.io/badge/Build-Passing-brightgreen.svg"></a>
 </p>
 
----
-
 <!-- ASCII Quantum Animation -->
-<pre align="center">
-      ⬤        ⬤
+```text
+      ⬤         ⬤
     ⬤   ⬤    ⬤   ⬤
   ⬤       ⬤⬤       ⬤
     ⬤   ⬤    ⬤   ⬤
       ⬤        ⬤
 Rotating Qubits in Quantum Playground 🌀
-</pre>
 
----
 
 ## 🧩 About the Project
 **Quantum Playground** is a modular learning and experimentation hub for **quantum computing**.  
