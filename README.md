@@ -11,6 +11,7 @@
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg"></a>
   <a href="#"><img src="https://img.shields.io/badge/Build-Passing-brightgreen.svg"></a>
 </p>
+---
 
 <!-- ASCII Quantum Animation -->
 ```text
@@ -21,6 +22,7 @@
       ⬤        ⬤
 Rotating Qubits in Quantum Playground 🌀
 
+---
 
 ## 🧩 About the Project
 **Quantum Playground** is a modular learning and experimentation hub for **quantum computing**.  
