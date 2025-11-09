@@ -105,6 +105,13 @@ jupyter notebook examples/qiskit/
   <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" width="500" alt="Quantum Animation">
 </p>
 
+## 🌌 Sneak Peek Animation
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/WAQAS7297/quantum-playground/main/assets/bloch_sphere.png" width="500" alt="High-Res Bloch Sphere">
+</p>
+
+
 ## 🌌 Quantum Circuit Simulation (IBM Q Style)
 
 <p align="center">
