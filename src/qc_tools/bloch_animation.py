@@ -1,12 +1,12 @@
 from qiskit import QuantumCircuit
-from qiskit.quantum_info import Statevector
-from qiskit.visualization.bloch import Bloch  
+from qiskit.quantum_info import Statevector, Pauli
+from qiskit.visualization.bloch import Bloch
 import matplotlib.pyplot as plt
 from matplotlib import animation
 import numpy as np
 import os
 
-# Create a circuit
+# Create a simple 1-qubit circuit
 qc = QuantumCircuit(1)
 qc.h(0)
 qc.t(0)
@@ -14,31 +14,39 @@ qc.t(0)
 # Get the final statevector
 state = Statevector.from_instruction(qc)
 
-# Create a Bloch sphere object
-bloch = Bloch()
+# Compute Bloch vector for 1-qubit state using Pauli operators
+bloch_vec = [
+    np.real(state.expectation_value(Pauli('X'))),
+    np.real(state.expectation_value(Pauli('Y'))),
+    np.real(state.expectation_value(Pauli('Z')))
+]
+
+# Prepare figure
+fig = plt.figure()
+bloch = Bloch(fig=fig)
 bloch.vector_color = ['r']
 
-# Extract the Bloch vector
-bloch_vec = state.data.real[:3] if state.num_qubits == 1 else state.expectation_value([1,0,0])
-
-# Prepare figure for animation
-fig = plt.figure()
-
-# For simplicity, let's animate the rotation around Z
-angles = np.linspace(0, np.pi/2, 20)  # 20 frames
+# Animation: rotate Bloch vector around Z
+angles = np.linspace(0, 2*np.pi, 30)  # 30 frames
 
 def update(frame):
-    plt.clf()
     bloch.clear()
-    # Rotate around Z
-    bloch.add_vectors([np.cos(frame), np.sin(frame), 0])
+    # Rotate vector around Z axis
+    x, y, z = bloch_vec
+    x_rot = x * np.cos(frame) - y * np.sin(frame)
+    y_rot = x * np.sin(frame) + y * np.cos(frame)
+    bloch.add_vectors([ [x_rot, y_rot, z] ])
     bloch.render()
 
-ani = animation.FuncAnimation(fig, update, frames=angles, repeat=True)
+ani = animation.FuncAnimation(fig, update, frames=angles, interval=100, repeat=True)
 
-# Save as GIF
-output_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'assets', 'bloch_sphere.gif')
-ani.save(output_path, writer='pillow', fps=5)
+# Create output directory if it doesn't exist
+output_dir = os.path.join('.', 'assets')
+os.makedirs(output_dir, exist_ok=True)
+output_path = os.path.join(output_dir, 'bloch_sphere.gif')
+
+# Save GIF
+ani.save(output_path, writer='pillow', fps=10)
 print(f"Bloch sphere animation saved to {output_path}")
 
 
